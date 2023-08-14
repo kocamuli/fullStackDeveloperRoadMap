@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+}
+
+h4 {
+    color : darkmagenta;
+}
+
+p {
+    color : darkolivegreen;
+}
+
+h3 {
+    color : red;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: "Bradley Hand ITC";
+}
+
+p{
+    border : 10px solid powderblue;
+    padding : 30px; /*boşluk tanımlar.*/
+    margin : 50px; /*sayfada kenarlık ve kenar boşluğu*/
+}
+

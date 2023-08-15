@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML RESİMLERİ</title>
+    <style>
+        body{
+            background-image:  url('ornek2.jpg');
+            background-repeat:no-repeat ;
+            background-attachment: fixed;
+            background-size:cover ;
+
+        }
+    </style>
+    <!-- arka plan öğesinin pencere boyutuna göre
+     ayarlanmasını istiyorsak :
+     background-size : 100% 100%
+     -->
+    <!--
+    Arka plan görüntüsünün tüm öğeyi kaplamasını istiyorsanız,
+    background-sizeözelliği şu şekilde ayarlayabilirsiniz:cover.
+    Ayrıca, tüm öğenin her zaman kapsandığından emin olmak için
+    özelliği background-attachmentşu şekilde ayarlayın:fixed:
+    Bu şekilde, arka plan görüntüsü herhangi bir esneme olmaksızın
+    tüm öğeyi kaplayacaktır (görüntü orijinal oranlarını koruyacaktır):
+    -->
+</head>
+<body>
+      <!--<p style="background-image: url('ornek2.JPG');"> -->
+      <img src="ornek.JPG" alt="" width="100" height="100">
+
+<!--
+picture : farklı ekran boyutları için farklı
+resimler gösterir
+-->
+      <picture>
+          <source media="(min-width:650px" srcset="ornek.jpg">
+          <source media="(min-width:465px" srcset="ornek2.JPG">
+      </picture>
+
+</body>
+</html>

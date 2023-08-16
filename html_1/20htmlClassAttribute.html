@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <title>HTML class Attribute</title>
     <link rel="icon" type="image/x-icon" href="favicon-16x16.png">
-
+    <style>
+        .city{
+            background-color: pink;
+            color : white;
+            border : 2px solid black;
+            margin : 20px;
+            padding : 20px;
+        }
+        .city2{
+            background-color: powderblue;
+            color : white;
+            border : 5px solid blueviolet;
+            margin : 30px;
+        }
+        .note{
+            font-size: 100%;
+            color:red;
+        }
+    </style>
 </head>
 <body>
+    <!--class = "city
+     .city{} ile eklenir-->
+    <div class="city">
+        <h2>LONDON</h2>
+        <p>London is the capital of England.</p>
+    </div>
 
+    <div class="city2">
+        <h2>PARİS</h2>
+        <p>Paris is the capital of France.</p>
+    </div>
+
+    <div class="note city2">
+        <h1>My <span class="note">IMPORTANT</span>Heading</h1>
+        <p>Lorem ipsum. <span class="note">lorem</span> text</p>
+    </div>
 </body>
 </html>

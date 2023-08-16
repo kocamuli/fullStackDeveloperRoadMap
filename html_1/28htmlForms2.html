@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>ınput</h1>
+  <label for="fname">ADI:</label>
+<br>
+<input type="text" id="fname" name="fname">
+
+<h1>SELECT</h1>
+  <p>açılır liste tanımlar</p>
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars" >
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+    <option value="fiat" selected>Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+
+<h3>birden fazla değer sçeme:</h3>
+<label for="araba">Choose a car:</label>
+<select id="araba" name="cars" size="4" multiple>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+</select>
+<button>GÖNDER</button>
+
+<H3>GRUPLANDIR</H3>
+<form action="/action_page.php">
+    <fieldset>
+        <legend>Personalia:</legend>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+    </fieldset>
+</form>
+
+<H3>DATALIST</H3>
+<form action="/action_page.php">
+    <input list="browsers">
+    <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+    <BR>
+    <BR>
+    <BR>
+</form>
+
+</body>
+</html>

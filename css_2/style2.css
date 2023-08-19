@@ -1,0 +1,47 @@
+p.one {
+    border-style: solid;
+    border-width: 5px;
+    color : red;
+    border-color: #111111;
+}
+
+p.two {
+    border-style: solid;
+    border-width: medium;
+    border-color: red green blue yellow;
+
+}
+
+p.three {
+    border-style: dotted;
+    border-width: 2px;
+}
+
+p.four {
+    border-style: dotted;
+    border-width: thick;
+}
+
+p.five {
+    border-style: double;
+    border-width: 15px 40px;
+    border-radius: 100px;
+}
+
+p.six {
+    border-style: double;
+    border-width: thick;
+}
+
+p.seven{
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    /* dotted solid*/
+}
+
+div{
+    margin:70px;
+    border: 1px solid black;
+}

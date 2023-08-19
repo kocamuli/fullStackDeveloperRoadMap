@@ -1,0 +1,38 @@
+p.center{
+    text-align: center;
+    color: red;
+}
+
+p.large{
+    font-size: 300%;
+}
+
+h1.center{
+    text-align: center;
+    color: blue;
+    background-color: darkturquoise;
+}
+
+* {
+    background-color: white;
+}
+
+/* yorum */
+
+div p {
+    background-color: blue;
+    opacity: 0.1;
+    color: black;
+}
+
+div {
+    background-color: lightblue;
+}
+
+body{
+    background-image: url("cicek.png");
+    background-repeat:no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+

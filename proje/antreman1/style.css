@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    text-align: center;
+}
+
+body{
+    height: 100%;
+    background-image: url("beach.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-opacity: 0.3;
+}
+
+.main{
+    color : #926239;
+}
+
+.main h1{
+    padding-top:20%;
+    font-size:50px;
+}
+
+.main p{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.main button{
+    padding: 15px 20px;
+    margin-top:10px;
+    display:inline-block;
+    border: none;
+    border-radius: 15px;
+    background-color: #926239;
+    opacity: 0.9;
+    text-decoration: none;
+    color : #12a871;
+}
+
+.main button:hover{
+    background-color: dodgerblue;
+}
+
+.paragraf1{
+    background-color: #926239;
+    color : white;
+    margin-top: 210px;
+    font-size: 12px;
+}
+
+.pr2{
+    background-color: whitesmoke;
+    color : #926239;
+    font-size: 12px;
+}
+
+.pr3{
+    height: 33%;
+    width: 33%;
+    background-color: #926239;
+    font-size: 12px;
+    display: inline-flex;
+}
+
+.pr4{
+    height: 33%;
+    width: 33%;
+    background-color: whitesmoke;
+    color : #926239;
+    font-size: 12px;
+    display: inline-flex;
+}
+
+.pr5{
+    height: 33%;
+    width: 33%;
+    background-color: #926239;
+    font-size: 12px;
+    display: inline-flex;
+}
